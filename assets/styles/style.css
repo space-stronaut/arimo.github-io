@@ -99,6 +99,12 @@ section.hero .text-primary a.btn-primary:hover {
 }
 
 @media (max-width: 380px) {
+  nav {
+    background-color: white;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+  }
   nav .container-fluid {
     padding: 15px 0;
   }
@@ -138,7 +144,7 @@ section.hero .text-primary a.btn-primary:hover {
   }
   section.hero {
     flex-direction: column;
-    height: 100vh;
+    height: 150vh;
   }
   section.hero .text-primary h1 {
     font-size: 36px;

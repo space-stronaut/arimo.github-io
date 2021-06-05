@@ -316,6 +316,7 @@ footer {
   }
   section.fitur .row .col {
     width: 17rem;
+    margin-top: 20px;
     color: white;
     padding: 30px;
     display: flex;
@@ -371,6 +372,7 @@ footer {
   section.mentor .row .col {
     width: 17rem;
     color: white;
+    margin-top: 20px;
     padding: 30px;
     display: flex;
     background-color: #FAFAFF;

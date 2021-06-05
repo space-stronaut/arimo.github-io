@@ -10,3 +10,5 @@ btn.addEventListener('click', function(){
 AOS.init({
     duration: 1300
 })
+
+// gsap

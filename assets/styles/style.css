@@ -5,6 +5,10 @@
   color: #221341;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -96,6 +100,128 @@ section.hero .text-primary a.btn-primary img {
 
 section.hero .text-primary a.btn-primary:hover {
   background-color: #FF95D7;
+}
+
+section.fitur {
+  margin-top: 120px;
+}
+
+section.fitur .text-between {
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+section.fitur .text-between h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+section.fitur .text-between p {
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+section.fitur .row {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.fitur .row .col {
+  width: 15rem;
+  color: white;
+  padding: 30px;
+  display: flex;
+  background-color: #FAFAFF;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section.fitur .row .col img {
+  max-width: 70%;
+  margin-bottom: 60px;
+}
+
+section.fitur .row .col h1 {
+  color: #8A6FFF;
+  text-transform: uppercase;
+}
+
+section.fitur .row .col p {
+  color: #221E41;
+  margin-top: 25px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+section.mentor {
+  margin-top: 160px;
+}
+
+section.mentor .text-between {
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+section.mentor .text-between h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+section.mentor .text-between p {
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+section.mentor .row {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.mentor .row .col {
+  width: 15rem;
+  color: white;
+  padding: 30px;
+  display: flex;
+  background-color: #FAFAFF;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+section.mentor .row .col img {
+  max-width: 70%;
+  margin-bottom: 60px;
+}
+
+section.mentor .row .col h1 {
+  color: #8A6FFF;
+  text-transform: uppercase;
+}
+
+section.mentor .row .col p {
+  color: #221E41;
+  margin-top: 25px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+footer {
+  margin-top: 120px;
+  height: 100vh;
+  background-color: #4921fa;
+  border-top-right-radius: 140px;
 }
 
 @media (max-width: 380px) {
